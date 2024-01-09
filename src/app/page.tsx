@@ -6,6 +6,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>
+        <p>Testing the CI/CD pipeline with Github Actions</p>
+      </div>
+      <div>
       <Link href="/foo">go to foo page!</Link>
       </div>
 
