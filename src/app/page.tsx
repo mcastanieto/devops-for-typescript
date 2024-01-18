@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
+import { NewsFeed } from '@/components/NewsFeed'
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       </div>
       <div>
       <Link href="/foo">go to foo page!</Link>
+      </div>
+      <div>
+        <NewsFeed />
       </div>
 
       <div className={styles.description}>
