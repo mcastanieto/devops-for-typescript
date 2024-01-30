@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        <p>Testing the CI/CD pipeline with Github Actions</p>
+        <p>Hello World! We are deployed in {process.env.NEXT_PUBLIC_ENV}</p>
       </div>
       <div>
       <Link href="/foo">go to foo page!</Link>
